@@ -1,4 +1,4 @@
-package com.System.HostelManagement.exception;
+package com.HostelManagementSystem.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

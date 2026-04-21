@@ -1,4 +1,4 @@
-package com.System.HostelManagement.exception;
+package com.HostelManagementSystem.exception;
 
 public class RoomFullException extends RuntimeException{
     public RoomFullException(String message){

@@ -1,4 +1,4 @@
-package com.System.HostelManagement.exception;
+package com.HostelManagementSystem.exception;
 
 public class RoomNotFoundException extends RuntimeException{
     public RoomNotFoundException(String message){

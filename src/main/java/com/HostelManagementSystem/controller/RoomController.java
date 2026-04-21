@@ -1,8 +1,8 @@
-package com.System.HostelManagement.controller;
+package com.HostelManagementSystem.controller;
 
-import com.System.HostelManagement.dto.RoomDTO;
-import com.System.HostelManagement.entity.Room;
-import com.System.HostelManagement.service.RoomService;
+import com.HostelManagementSystem.dto.RoomDTO;
+import com.HostelManagementSystem.entity.Room;
+import com.HostelManagementSystem.service.RoomService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

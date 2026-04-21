@@ -1,10 +1,10 @@
-package com.System.HostelManagement.service;
+package com.HostelManagementSystem.service;
 
-import com.System.HostelManagement.dto.RoomDTO;
-import com.System.HostelManagement.entity.Room;
-import com.System.HostelManagement.exception.RoomNotEmptyException;
-import com.System.HostelManagement.exception.RoomNotFoundException;
-import com.System.HostelManagement.repository.RoomRepository;
+import com.HostelManagementSystem.dto.RoomDTO;
+import com.HostelManagementSystem.entity.Room;
+import com.HostelManagementSystem.exception.RoomNotEmptyException;
+import com.HostelManagementSystem.exception.RoomNotFoundException;
+import com.HostelManagementSystem.repository.RoomRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

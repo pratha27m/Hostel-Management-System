@@ -1,4 +1,4 @@
-package com.System.HostelManagement;
+package com.HostelManagementSystem;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

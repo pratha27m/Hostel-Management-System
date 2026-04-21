@@ -1,4 +1,4 @@
-package com.System.HostelManagement.entity;
+package com.HostelManagementSystem.entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;

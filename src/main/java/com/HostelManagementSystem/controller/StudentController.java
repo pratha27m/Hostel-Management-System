@@ -1,8 +1,8 @@
-package com.System.HostelManagement.controller;
+package com.HostelManagementSystem.controller;
 
-import com.System.HostelManagement.dto.StudentDTO;
-import com.System.HostelManagement.entity.Student;
-import com.System.HostelManagement.service.StudentService;
+import com.HostelManagementSystem.dto.StudentDTO;
+import com.HostelManagementSystem.entity.Student;
+import com.HostelManagementSystem.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,4 +1,4 @@
-package com.System.HostelManagement.dto;
+package com.HostelManagementSystem.dto;
 
 import lombok.Data;
 
