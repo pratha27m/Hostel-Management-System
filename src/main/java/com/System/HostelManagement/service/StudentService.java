@@ -24,29 +24,6 @@ public class StudentService {
         return studentRepository.save(student);
     }
 
-//    public Student assignStudentToRoom (int studentId, int roomId){
-//
-//        Student student = studentRepository.findById(studentId)
-//                .orElseThrow(() -> new RuntimeException("Student not found"));
-//
-//        Room room = roomRepository.findById(roomId)
-//                .orElseThrow(() -> new RuntimeException("Room not found"));
-//
-//        if(room.getCurrentOccupancy() >= room.getCapacity()){
-//            throw new RuntimeException("Room is full");
-//        }
-//
-//        room.setCurrentOccupancy(room.getCurrentOccupancy()+1);
-//        roomRepository.save(room);
-//        student.setRoom(room);
-//        return studentRepository.save(student);
-//    }
-//
-//    public Student getStudentById(int id){
-//
-//        return studentRepository.findById(id).orElseThrow(() -> new RuntimeException("Student not found"));
-//    }
-
     public void deleteStudent(int studentId){
 
         Student std= studentRepository.findById(studentId).orElseThrow(()-> new RuntimeException("Student not found"));

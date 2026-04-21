@@ -15,11 +15,6 @@ public class RoomController {
     @Autowired
     private RoomService roomService;
 
-//    @PostMapping
-//    public Room createRoom(@RequestBody Room room){
-//        return roomService.createRoom(room);
-//    }
-
     @GetMapping
     public List<RoomDTO> getAllRooms(){
 

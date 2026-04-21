@@ -18,16 +18,6 @@ public class StudentController {
         return studentService.addStudent(student);
     }
 
-//    @PutMapping("/{studentId}/assign/{roomId}")
-//    public Student assignStudentToRoom(@PathVariable int studentId, @PathVariable int roomId){
-//        return studentService.assignStudentToRoom(studentId,roomId);
-//    }
-//
-//    @GetMapping("/{id}")
-//    public Student getStudentById(@PathVariable int id){
-//        return studentService.getStudentById(id);
-//    }
-
     @DeleteMapping("/{id}")
     public String deleteStudent(@PathVariable int id){
         studentService.deleteStudent(id);
